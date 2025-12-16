@@ -18,6 +18,12 @@ input switch that works reliably even in RDP sessions.
 
 Tested on Windows 10 / 11 with Google IME.
 
+### Note for AHK users
+If you run the `.ahk` script directly, place
+`icon_US_blue.ico` and `icon_JA_red.ico`
+in the same folder as the script.
+They are used for tray icon switching.
+
 ---
 
 # ThinkPad JIS → US RDP Keymap
@@ -40,3 +46,9 @@ Alt-IME風の入力切替を提供します。
 - AHK版 / EXE版の両方に対応
 
 Windows 10 / 11 + Google IME 環境で動作確認済みです。
+
+### AHK版を使う方へ
+`.ahk` を直接実行する場合は、
+`icon_US_blue.ico` と `icon_JA_red.ico` を
+スクリプトと同じフォルダに置いてください。
+トレイアイコン切替に使用されます。
