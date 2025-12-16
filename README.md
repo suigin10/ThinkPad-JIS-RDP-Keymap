@@ -20,7 +20,7 @@ Tested on Windows 10 / 11 with Google IME.
 
 ---
 
-# ThinkPad JIS → US RDP Keymap（日本語）
+# ThinkPad JIS → US RDP Keymap
 
 本ツールは、**ThinkPadの日本語(JIS)キーボード**で  
 **US配列として動作するRDP先Windows**を  
