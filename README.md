@@ -10,7 +10,7 @@ input switch that works reliably even in RDP sessions.
 - Safe default startup in US mode
 - Tray icon shows current mode (US / JA)
 - JIS-to-US symbol correction when enabled
-- Alt-IME style input switching (US mode only)
+- alt-ime-ahk style input switching (US mode only)
   - Left Alt  = English (EISU)
   - Right Alt = Japanese (KANA)
 - Normal Alt shortcuts (Alt+Tab, Alt+F4, menus) are preserved
@@ -33,7 +33,7 @@ They are used for tray icon switching.
 快適に操作するための小さなユーティリティです。
 
 記号配列のズレを補正し、RDP環境でも安定して動作する  
-Alt-IME風の入力切替を提供します。
+alt-ime-ahk風の入力切替を提供します。
 
 ## 主な機能
 - 起動時は安全なUSモード
