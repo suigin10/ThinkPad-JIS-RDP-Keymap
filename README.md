@@ -1,32 +1,42 @@
-# ThinkPad JIS RDP Keymap
+# ThinkPad JIS → US RDP Keymap
 
-This tool fixes key layout issues when using a **ThinkPad JIS keyboard**
-to operate a **US-layout Windows environment over RDP**.
+A small utility for using a **ThinkPad Japanese (JIS) keyboard**
+comfortably on a **US-layout Windows environment over RDP**.
+
+It fixes symbol layout mismatches and provides an Alt-IME style
+input switch that works reliably even in RDP sessions.
 
 ## Features
-- JIS-style symbol mapping on US RDP hosts
-- Fixes number-row Shift symbols
-- Keeps IME control keys untouched
-- Manual toggle only (no auto-detection)
-- Supports both `.exe` and `.ahk`
+- Safe default startup in US mode
+- Tray icon shows current mode (US / JA)
+- JIS-to-US symbol correction when enabled
+- Alt-IME style input switching (US mode only)
+  - Left Alt  = English (EISU)
+  - Right Alt = Japanese (KANA)
+- Normal Alt shortcuts (Alt+Tab, Alt+F4, menus) are preserved
+- Available as both `.ahk` script and compiled `.exe`
 
-## Files
-- `ThinkPad_JIS_RDP_Keymap_v1_3.exe`  
-  Standalone executable (AutoHotkey not required)
-- `ThinkPad_JIS_RDP_Keymap_v1_3.ahk`  
-  Script version (AutoHotkey v1 required)
-- `README_ThinkPad_JIS_RDP_Keymap_Manual.txt`  
-  Detailed usage manual
+Tested on Windows 10 / 11 with Google IME.
 
-## Usage
-Run the tool **on the RDP host (desktop side)**.
+---
 
-- Toggle ON/OFF: `Ctrl + Alt + K`
-- Show KeyHistory: `Ctrl + Alt + H`
+# ThinkPad JIS → US RDP Keymap（日本語）
 
-## Notes
-- Some keys (e.g. the top-right `\` key) are intentionally left untouched
-  to avoid conflicts.
-- Designed for stability rather than full remapping.
+本ツールは、**ThinkPadの日本語(JIS)キーボード**で  
+**US配列として動作するRDP先Windows**を  
+快適に操作するための小さなユーティリティです。
 
-See the detailed manual for full explanation.
+記号配列のズレを補正し、RDP環境でも安定して動作する  
+Alt-IME風の入力切替を提供します。
+
+## 主な機能
+- 起動時は安全なUSモード
+- トレイアイコンで現在のモードを表示（US / JA）
+- 有効時にJIS→USの記号配置を補正
+- USモード時のみ Alt-IME風入力切替
+  - 左Alt ＝ 英数
+  - 右Alt ＝ 日本語
+- Alt+Tab / Alt+F4 / メニュー操作は通常通り動作
+- AHK版 / EXE版の両方に対応
+
+Windows 10 / 11 + Google IME 環境で動作確認済みです。
