@@ -106,7 +106,7 @@ US モード時、左右 Alt に以下の役割を割り当てています。
 
 
 ---
-8. Alt メニュー奪取抑制についてhttps://github.com/suigin10/ThinkPad-JIS-RDP-Keymap/blob/main/README.md
+8. Alt メニュー奪取抑制について
 ---
 Windows アプリ（特にメモ帳）では、Alt 単押しで
 上部メニューにフォーカスが移動することがあります。
